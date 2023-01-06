@@ -1,6 +1,6 @@
 import React from "react";
 import DocumentTitle from 'react-document-title';
-import TimelineIcon from 'components/aux/TimelineIcon.js';
+import TimelineIcon from 'components/misc/TimelineIcon.js';
 import $ from "jquery";
 import ReactTooltip from 'react-tooltip'
 
