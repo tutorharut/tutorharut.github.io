@@ -29,27 +29,18 @@ class NavBar extends React.Component {
       <div>
         <header id="header">
           <h1>
-            <Link to="/">Alex Krentsel</Link>
+          <Link to="/">Home & Contact</Link>
           </h1>
           <nav className="links">
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/qualifications">Qualifications</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="/posts">Posts</Link>
-              </li>
-              <li>
-                <Link to="/music">Music</Link>
-              </li>
-              <li>
-                <Link to="/teaching">Teaching</Link>
-              </li>
-              <li>
-                <Link to="/projects">Projects</Link>
+                <Link to="/policies">Policies</Link>
               </li>
               <li>
                 <Link to="/contact">Contact</Link>
@@ -64,25 +55,19 @@ class NavBar extends React.Component {
                     isOpen={this.state.menuOpen}
                     onStateChange={state => this.handleStateChange(state)}
                     right
-                    width={200}
+                    width={275}
                   >
                     <Link onClick={() => this.closeMenu()} to="/">
-                      Home
+                     Home/Contact
                     </Link>
-                    <Link onClick={() => this.closeMenu()} to="/about">
-                      About
+                    <Link onClick={() => this.closeMenu()} to="/qualifications">
+                      Qualifications
                     </Link>
-                    <Link onClick={() => this.closeMenu()} to="/posts">
-                      Posts
+                    <Link onClick={() => this.closeMenu()} to="/services">
+                      Services
                     </Link>
-                    <Link onClick={() => this.closeMenu()} to="/music">
-                      Music
-                    </Link>
-                    <Link onClick={() => this.closeMenu()} to="/teaching">
-                      Teaching
-                    </Link>
-                    <Link onClick={() => this.closeMenu()} to="/projects">
-                      Projects
+                    <Link onClick={() => this.closeMenu()} to="/policies">
+                      Policies
                     </Link>
                     <Link onClick={() => this.closeMenu()} to="/contact">
                       Contact

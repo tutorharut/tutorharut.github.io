@@ -18,28 +18,25 @@ import BriefAboutInsert from "./components/BriefAboutInsert.js";
 
 class App extends React.Component {
   render = () => (
-    <DocumentTitle title="Alex Krentsel">
+    <DocumentTitle title="Tutor Harut">
       <Router>
         <Analytics id="UA-143332212-1">
           <ScrollToTop />
           <div id="wrapper">
+          <Route exact path="/" component={BriefAboutInsert} />
             <Route path="/" component={NavBar} />
             <div id="main">
               <Switch>
                 <Route exact path="/" component={Welcome} />
-                <Route path="/about" component={About} />
-                <Route path="/music" component={Music} />
-                <Route path="/teaching" component={Teaching} />
-                <Route path="/projects" component={Projects} />
+                <Route path="/qualifications" component={Music} />
+                <Route path="/services" component={Teaching} />
                 // "/posts" exactly goes to the directory, otherwise we try to
                 // display a particular post.
-                <Route exact path="/posts" component={Posts} />
-                <Route path="/posts/:postPath" component={Post} />
+                <Route exact path="/policies" component={Posts} />
                 <Route path="/contact" component={Contact} />
                 // TODO: Add wildcard path here to show an error image.
               </Switch>
             </div>
-            <Route path="/" component={BriefAboutInsert} />
           </div>
         </Analytics>
       </Router>
