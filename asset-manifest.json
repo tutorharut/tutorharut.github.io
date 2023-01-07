@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.d590a9be.chunk.css",
-    "main.js": "/static/js/main.8c8f1d12.chunk.js",
-    "main.js.map": "/static/js/main.8c8f1d12.chunk.js.map",
+    "main.js": "/static/js/main.53cd2331.chunk.js",
+    "main.js.map": "/static/js/main.53cd2331.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f9b94f4f.js",
     "runtime-main.js.map": "/static/js/runtime-main.f9b94f4f.js.map",
     "static/css/2.f681e662.chunk.css": "/static/css/2.f681e662.chunk.css",
-    "static/js/2.090dfcea.chunk.js": "/static/js/2.090dfcea.chunk.js",
-    "static/js/2.090dfcea.chunk.js.map": "/static/js/2.090dfcea.chunk.js.map",
+    "static/js/2.5e86cd4f.chunk.js": "/static/js/2.5e86cd4f.chunk.js",
+    "static/js/2.5e86cd4f.chunk.js.map": "/static/js/2.5e86cd4f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.946eef00a0166c7970ccbe85545e83d9.js": "/precache-manifest.946eef00a0166c7970ccbe85545e83d9.js",
+    "precache-manifest.3cb3f73e9e59234233cc0b2c7430c930.js": "/precache-manifest.3cb3f73e9e59234233cc0b2c7430c930.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.f681e662.chunk.css.map": "/static/css/2.f681e662.chunk.css.map",
     "static/css/main.d590a9be.chunk.css.map": "/static/css/main.d590a9be.chunk.css.map",
-    "static/js/2.090dfcea.chunk.js.LICENSE.txt": "/static/js/2.090dfcea.chunk.js.LICENSE.txt",
+    "static/js/2.5e86cd4f.chunk.js.LICENSE.txt": "/static/js/2.5e86cd4f.chunk.js.LICENSE.txt",
     "static/media/UI_example1.png": "/static/media/UI_example1.c915c672.png",
     "static/media/alex-nature.jpg": "/static/media/alex-nature.96add150.jpg",
-    "static/media/alex-normal.jpg": "/static/media/alex-normal.55a6aa90.jpg",
     "static/media/alex-silly.jpg": "/static/media/alex-silly.6db494f0.jpg",
     "static/media/csci100-website.png": "/static/media/csci100-website.1d25c63d.png",
     "static/media/dis10-sol.pdf": "/static/media/dis10-sol.16b7edd4.pdf",
     "static/media/entropy-walkthrough-cs189.png": "/static/media/entropy-walkthrough-cs189.46b9391b.png",
     "static/media/main.css": "/static/media/fa-solid-900.ef3df984.eot",
+    "static/media/harut.jpg": "/static/media/harut.9e4e113e.jpg",
     "static/media/kernel-discussion-img.png": "/static/media/kernel-discussion-img.a6e48696.png",
     "static/media/krentsel-website.png": "/static/media/krentsel-website.ea47e122.png",
     "static/media/shortl-image.png": "/static/media/shortl-image.c056b72b.png",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.f9b94f4f.js",
     "static/css/2.f681e662.chunk.css",
-    "static/js/2.090dfcea.chunk.js",
+    "static/js/2.5e86cd4f.chunk.js",
     "static/css/main.d590a9be.chunk.css",
-    "static/js/main.8c8f1d12.chunk.js"
+    "static/js/main.53cd2331.chunk.js"
   ]
 }
