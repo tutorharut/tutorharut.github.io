@@ -12,34 +12,8 @@ const Welcome = () => (
     </header>
     <p>Professional and experienced tutor specializing in Computer Science. 
       I also provide tutoring in college level Physics and Mathematics.</p>
-      <section id="footer">
-      <ul className="icons">
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/alex-krentsel/"
-            className="fab fa-linkedin"
-          >
-            <span className="label">LinkedIn</span>
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="mailto:tutorharut@gmail.com"
-            className="fas fa-envelope"
-          >
-            <span className="label">Email</span>
-          </a>
-        </li>
-      </ul>
-      <p className="copyright">
-        &copy; Harut 2023. React and blog infa built from scratch. CSS
-        from <a href="http://html5up.net">HTML5 UP</a>.
-      </p>
-    </section>
+      <div className="rectangle" style={{ width: 100, height: 500,color:"black" }}/>
+      
   </article>
   
 );

@@ -37,7 +37,13 @@ class NavBar extends React.Component {
                 <Link to="/qualifications">Qualifications</Link>
               </li>
               <li>
-                <Link to="/services">Services</Link>
+                <Link to="/cs">Computer Science</Link>
+              </li>
+              <li>
+                <Link to="/career">Career</Link>
+              </li>
+              <li>
+                <Link to="/mathphys">Math & Physics</Link>
               </li>
               <li>
                 <Link to="/policies">Policies</Link>
@@ -58,13 +64,19 @@ class NavBar extends React.Component {
                     width={275}
                   >
                     <Link onClick={() => this.closeMenu()} to="/">
-                     Home/Contact
+                     Home & Contact
                     </Link>
                     <Link onClick={() => this.closeMenu()} to="/qualifications">
                       Qualifications
                     </Link>
-                    <Link onClick={() => this.closeMenu()} to="/services">
-                      Services
+                    <Link onClick={() => this.closeMenu()} to="/cs">
+                      Computer Science
+                    </Link>
+                    <Link onClick={() => this.closeMenu()} to="/career">
+                      Career
+                    </Link>
+                    <Link onClick={() => this.closeMenu()} to="/mathphys">
+                      Math & Physics
                     </Link>
                     <Link onClick={() => this.closeMenu()} to="/policies">
                       Policies
