@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PostList from "components/blog/PostList.js";
+import CSLogo from "../../assets/imgs/logo-cs.png"
 
 const Welcome = () => (
   <article className="post">
@@ -12,7 +13,25 @@ const Welcome = () => (
     </header>
     <p>Professional and experienced tutor specializing in Computer Science. 
       I also provide tutoring in college level Physics and Mathematics.</p>
-      <div className="rectangle" style={{ width: 100, height: 500,color:"black" }}/>
+      <article className="post" bodyAttributes={{style: 'background-color : #000'}}>
+        <div className="container" style={{display: 'flex',  alignItems:'top'}}>
+        <img src={CSLogo} style={{display: 'flex',  justifyContent:'left', alignItems:'top'}} height = {125} width = {125} ></img>
+          <div style={{display: 'flex',  justifyContent:'center', alignItems:'top'}}>
+            <p style={{fontWeight: '700'}}>Computer Science: </p>
+            <p > I offer</p>
+            </div>
+          </div>
+        </article>
+
+        <article className="post" bodyAttributes={{style: 'background-color : #000'}}>
+        Career
+        </article>
+        <article className="post" bodyAttributes={{style: 'background-color : #000'}}>
+        Math
+        </article>
+        <article className="post" bodyAttributes={{style: 'background-color : #000'}}>
+        Physics
+        </article>
       
   </article>
   
