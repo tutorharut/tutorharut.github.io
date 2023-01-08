@@ -9,16 +9,24 @@ const Welcome = () => (
       <div className="title">
         <h2>Private tutoring</h2>
         <p>Computer Science, Physics, Mathematics & Career Counseling</p>
+        <p>Professional and experienced tutor specializing in Computer Science. 
+      also providing tutoring in college level Physics and Mathematics.</p>
       </div>
     </header>
-    <p>Professional and experienced tutor specializing in Computer Science. 
-      I also provide tutoring in college level Physics and Mathematics.</p>
-      <article className="post" bodyAttributes={{style: 'background-color : #000'}}>
+    
+
+      <article className="post" style={{backgroundColor: "#a0a0a013"}}>
         <div className="container" style={{display: 'flex',  alignItems:'top'}}>
         <img src={CSLogo} style={{display: 'flex',  justifyContent:'left', alignItems:'top'}} height = {125} width = {125} ></img>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <div style={{display: 'flex',  justifyContent:'center', alignItems:'top'}}>
-            <p style={{fontWeight: '700'}}>Computer Science: </p>
-            <p > I offer</p>
+            <div>
+            <p style={{fontWeight: '700',justifyContent: 'space-between'}}>Computer Science: &nbsp;</p>
+            
+            <p > From introductory topics to advanced cutting edge technologies, I provide professional tutoring in 
+              the field of computer science. Specific topics include Data Structures, Algorithms, Backend, Frontend,
+               Fullstack. Excellent in C/C++, Java, and Python. Working proficiency in most lanugages and frameworks
+               in modern codebases.  </p></div>
             </div>
           </div>
         </article>
