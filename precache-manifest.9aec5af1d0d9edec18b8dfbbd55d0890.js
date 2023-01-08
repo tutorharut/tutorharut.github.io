@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7df82d5b4865457bbf412ff4e80a67ab",
+    "revision": "eaed8b1eac37c7e9977025caf5c2a20b",
     "url": "/index.html"
   },
   {
-    "revision": "c6a71559aeea532c1fa6",
-    "url": "/static/css/2.f681e662.chunk.css"
+    "revision": "f55b095dc39a49e3ed4b",
+    "url": "/static/css/2.a641e29a.chunk.css"
   },
   {
-    "revision": "c936f7adab4734e4f073",
-    "url": "/static/css/main.aa9966d7.chunk.css"
+    "revision": "9f45f20757fcb0fa6625",
+    "url": "/static/css/main.fea106ba.chunk.css"
   },
   {
-    "revision": "c6a71559aeea532c1fa6",
-    "url": "/static/js/2.e5b2b042.chunk.js"
+    "revision": "f55b095dc39a49e3ed4b",
+    "url": "/static/js/2.9d571bdf.chunk.js"
   },
   {
     "revision": "d85b2b09c9c4fb75d3095c40ceee6d5a",
-    "url": "/static/js/2.e5b2b042.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9d571bdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c936f7adab4734e4f073",
-    "url": "/static/js/main.aa75281a.chunk.js"
+    "revision": "9f45f20757fcb0fa6625",
+    "url": "/static/js/main.99c00201.chunk.js"
   },
   {
     "revision": "341b52ca22e4370e6e04",
@@ -122,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea47e1222b6e4cffd6b1e9f90afdda9f",
     "url": "/static/media/krentsel-website.ea47e122.png"
+  },
+  {
+    "revision": "bfe81e705834e989095746ca6c3be57f",
+    "url": "/static/media/logo-cs.bfe81e70.png"
   },
   {
     "revision": "c056b72b419a82e3b19f9993e518d5e2",
