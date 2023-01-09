@@ -40,7 +40,7 @@ class NavBar extends React.Component {
                 <Link to="/cs">Computer Science</Link>
               </li>
               <li>
-                <Link to="/career">Career</Link>
+                <Link to="/careeredu">Career & Education</Link>
               </li>
               <li>
                 <Link to="/mathphys">Math & Physics</Link>
@@ -72,8 +72,8 @@ class NavBar extends React.Component {
                     <Link onClick={() => this.closeMenu()} to="/cs">
                       Computer Science
                     </Link>
-                    <Link onClick={() => this.closeMenu()} to="/career">
-                      Career
+                    <Link onClick={() => this.closeMenu()} to="/careeredu">
+                      Career & Education
                     </Link>
                     <Link onClick={() => this.closeMenu()} to="/mathphys">
                       Math & Physics
