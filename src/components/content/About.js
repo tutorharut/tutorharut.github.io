@@ -3,6 +3,7 @@ import DocumentTitle from 'react-document-title';
 import TimelineIcon from 'components/misc/TimelineIcon.js';
 import $ from "jquery";
 import ReactTooltip from 'react-tooltip'
+import NormalPic from "assets/imgs/harut.jpg";
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -41,6 +42,7 @@ class About extends React.Component {
     render() {
       return (
         <DocumentTitle title='About'>
+          <div>
           <article className="post">
             <header>
               <div className="title">
@@ -51,14 +53,14 @@ class About extends React.Component {
               <VerticalTimelineElement
                 className="timeline-element-custom"
                 date="1997"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                icon={<TimelineIcon iconClass="fas fa-birthday-cake"/>}
+                
+                image={NormalPic}
               >
-                <h3 className="vertical-timeline-element-title">Born in Missouri</h3>
+                <h3 className="vertical-timeline-element-title">TUMO: Center for Creative Technologies</h3>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="timeline-element-custom"
-                date="2005"
+                date="2013"
                 iconStyle={{ background: 'rgb(3, 112, 56)', color: '#fff' }}
                 icon={<TimelineIcon iconClass="fas fa-apple-alt"/>}
               >
@@ -212,6 +214,8 @@ class About extends React.Component {
               </VerticalTimelineElement>
             </VerticalTimeline>
           </article>
+          <p>fds</p>
+          </div>
         </DocumentTitle>
     );
   }

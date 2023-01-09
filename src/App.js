@@ -14,6 +14,7 @@ import Projects from "./components/content/Projects.js";
 import Contact from "./components/content/Contact.js";
 import Welcome from "./components/content/Welcome.js";
 import BriefAboutInsert from "./components/BriefAboutInsert.js";
+import BriefAboutInsert2 from "./components/BriefAboutInsert2.js";
 const width = window.innerWidth 
           || document.documentElement.clientWidth
           || document.body.clientWidth;
@@ -39,7 +40,7 @@ class App extends React.Component {
             <div id="main">
               <Switch>
                 <Route exact path="/" component={Welcome} />
-                <Route path="/qualifications" component={Music} />
+                <Route path="/qualifications" component={About} />
                 <Route path="/cs" component={Teaching} />
                 <Route path="/career" component={Teaching} />
                 <Route path="/mathphys" component={Teaching} />

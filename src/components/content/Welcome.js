@@ -27,8 +27,8 @@ const Welcome = () => (
             
             <p > From introductory topics to advanced cutting edge technologies, I provide professional tutoring in 
               the field of computer science. Specific topics include Data Structures, Algorithms, Backend, Frontend,
-               Fullstack. Excellent in C/C++, Java, and Python. Working proficiency in most lanugages and frameworks
-               in modern companies.  </p></div>
+               Fullstack, C/C++, Java, and Python. Working proficiency in most lanugages and frameworks used
+               by modern companies.  </p></div>
             </div>
           </div>
         </article>
@@ -55,10 +55,7 @@ const Welcome = () => (
             <div>
             <p style={{fontWeight: '700',justifyContent: 'space-between'}}>Math and Physics: &nbsp;</p>
             
-            <p > From introductory topics to advanced cutting edge technologies, I provide professional tutoring in 
-              the field of computer science. Specific topics include Data Structures, Algorithms, Backend, Frontend,
-               Fullstack. Excellent in C/C++, Java, and Python. Working proficiency in most lanugages and frameworks
-               in modern codebases.  </p></div>
+            <p > All lower division Mathematics, such as Algebra, Precalculus, Trigonometry, Statistics, Calculus, Discre  </p></div>
             </div>
           </div>
         </article>

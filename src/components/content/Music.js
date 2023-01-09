@@ -2,8 +2,7 @@ import React from "react";
 import DocumentTitle from 'react-document-title';
 
 
-// TODO(akrentsel): Considering adding info about the masterclasses I've been in.
-// Also perhaps finding info about the Cal Performances Takacs documentary?
+
 
 const Music = () => (
     <DocumentTitle title='Music'>
