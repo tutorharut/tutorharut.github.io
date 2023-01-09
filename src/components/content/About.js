@@ -46,7 +46,7 @@ class About extends React.Component {
           <article className="post">
             <header>
               <div className="title">
-                <h2>About</h2>
+                <h2>Work & Education</h2>
               </div>
             </header>
             <VerticalTimeline>

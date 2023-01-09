@@ -10,6 +10,7 @@ import About from "./components/content/About.js";
 import Posts from "./components/content/Posts.js";
 import Music from "./components/content/Music.js";
 import Teaching from "./components/content/Teaching.js";
+import ComputerSci from "./components/content/ComputerSci.js";
 import Projects from "./components/content/Projects.js";
 import Contact from "./components/content/Contact.js";
 import Welcome from "./components/content/Welcome.js";
@@ -41,7 +42,7 @@ class App extends React.Component {
               <Switch>
                 <Route exact path="/" component={Welcome} />
                 <Route path="/qualifications" component={About} />
-                <Route path="/cs" component={Teaching} />
+                <Route path="/cs" component={ComputerSci} />
                 <Route path="/career" component={Teaching} />
                 <Route path="/mathphys" component={Teaching} />
                 <Route exact path="/policies" component={Posts} />
