@@ -6,16 +6,20 @@ import CareerLogo1 from "../../assets/imgs/career.png"
 import CareerLogo2 from "../../assets/imgs/career1.png"
 import Phys from "../../assets/imgs/phys.png"
 
+
+
 const Welcome = () => (
+  
   <article className="post">
+    
     <header>
       <div className="title">
         <h2>Private tutoring</h2>
-        <p>Experienced Google Software Engineer; providing academic tutoring and career/education coaching.  
+        <p>Experienced Google Software Engineer; providing academic tutoring and career/education coaching*.  
       Also providing tutoring in college level Physics and Mathematics.</p>
       </div>
     </header>
-    
+
 
       <article className="post" style={{backgroundColor: "#a0a0a013"}}>
         <div className="container" style={{display: 'flex',  alignItems:'top'}}>

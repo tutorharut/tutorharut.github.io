@@ -1,0 +1,46 @@
+.timeline-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin: 40px 0;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s;
+  }
+  
+  .timeline-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .timeline-content {
+    position: relative;
+    z-index: 1;
+    padding: 0 0 0 80px;
+  }
+  
+  .timeline-title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .timeline-description {
+    margin: 10px 0 0;
+    font-size: 18px;
+  }
+  
+  .fade-in {
+    transform: translateY(0.1);
+    opacity: 1;
+  }
+  
+  
